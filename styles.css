@@ -82,3 +82,6 @@ body {
     color: #ffffff;
     font-size: 12px;
   }
+  form input, form textarea, form select {
+  margin-bottom: 1rem;
+}

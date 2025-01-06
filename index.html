@@ -8,22 +8,24 @@
   <h1 id="title">Survey Form</h1>
   <p id="description">Fill out this survey!</p>
   <form id="survey-form">
-   
+    
     <fieldset>
       <legend>Basic Information</legend>
-      <label for="name">Name</label>
+      
+      <label id="name-label" for="name">Name:</label>
       <input id="name" type="text" placeholder="Enter name here" required>
       
-      <label for="email">Email</label>
+      <label id="email-label" for="email">Email:</label>
       <input id="email" type="email" placeholder="Enter email here" required>
       
-      <label for="number">Number (1-9)</label>
+      <label id="number-label" for="number">Number (1-9):</label>
       <input id="number" type="number" min="1" max="9" placeholder="Enter number here">
     </fieldset>
     
-    
+  
     <fieldset>
       <legend>Preferences</legend>
+      
       <p>Choose an option:</p>
       <label>
         <input type="checkbox" value="unchecked"> Option 1
@@ -41,16 +43,17 @@
       </label>
     </fieldset>
     
-   
+    
     <fieldset>
       <legend>Additional Information</legend>
-      <label for="dropdown">Select an Option</label>
+      
+      <label for="dropdown">Select an Option:</label>
       <select id="dropdown">
         <option value="option1">Option 1</option>
         <option value="option2">Option 2</option>
       </select>
       
-      <label for="comments">Additional Comments</label>
+      <label for="comments">Additional Comments:</label>
       <textarea id="comments" placeholder="Enter your comments here"></textarea>
     </fieldset>
     
